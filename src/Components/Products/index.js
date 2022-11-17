@@ -11,7 +11,7 @@ function Products() {
   //Funcion que solicita los todos
   const fetchApi = async () => {
     const headers = {
-      Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlhc2RAc3lzdGVycy54eXoiLCJpYXQiOjE2Njg3MDQzMjksImV4cCI6MTY2ODcwNzkyOSwic3ViIjoiNDMifQ.iS_EvN-Kq-FG16-nHLw1AEP-l8vhcCaIGFw5kWfs3tw`,
+      Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmlhYXNkc2RAc3lzdGVycy54eXoiLCJpYXQiOjE2Njg3MDgwNzksImV4cCI6MTY2ODcxMTY3OSwic3ViIjoiNDQifQ.roYy4TemubDVnYEiJ31BLQkoMpzcPT8H-_LuTKJdD0Q`,
     };
     const response = await fetch(url, { headers });
     console.log(response.statusText);

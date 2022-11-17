@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*--FIRSTPAGE--*/
+.Home {
+    background-color: #a668686a;
+    padding: 1rem;
+    margin: 5rem;
+    border-radius: 50px;
+}
+.logo {
+    margin-left: 17rem;
+}
+.cocina{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    background-color: aliceblue;
+    padding: 2rem;
+    text-decoration: none;
+    border-radius: 20%;
+    font-weight: bolder;
+    color: black;
+}
+.mesero {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    background-color: aliceblue;
+    padding: 2rem;
+    text-decoration: none;
+    border-radius: 20%;
+    font-weight: bolder;
+    color: black;
+}

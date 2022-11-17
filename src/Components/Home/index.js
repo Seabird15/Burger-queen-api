@@ -5,7 +5,7 @@ import Products from '../Products'
 import styles from '../Home/styles.module.css'
 
 
-function Home() {
+function ProductList() {
   return (
     <div className={styles.home}>
         <Cart />
@@ -14,4 +14,4 @@ function Home() {
   )
 }
 
-export default Home
+export default ProductList

@@ -1,0 +1,19 @@
+.containerPrincipal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 40px;
+    background-color: rgba(255, 228, 196, 0.477);
+}
+
+.containerSecundario {
+    text-align: center;
+}
+input {
+    color: black;
+}
+button {
+    color: black;
+}
