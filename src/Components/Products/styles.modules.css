@@ -1,0 +1,12 @@
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+}
+.card {
+    box-shadow: 1px 1px 10px 2px rgb(2, 2, 2);
+}
