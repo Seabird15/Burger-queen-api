@@ -7,7 +7,12 @@
     padding: 40px;
     background-color: rgba(255, 228, 196, 0.477);
 }
-
+h3{
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 3px 3px #000000;
+    letter-spacing: 1px;
+}
 .containerSecundario {
     text-align: center;
 }
@@ -16,4 +21,9 @@ input {
 }
 button {
     color: black;
+    margin-top: 5px;
+}
+label{
+    font-weight: bold;
+    letter-spacing: 1px;
 }

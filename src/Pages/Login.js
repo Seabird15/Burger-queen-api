@@ -5,6 +5,8 @@ import axios from 'axios'
 //
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from '../Pages/Login.module.css'
+import logo from '../img/logo mediano.png'
+import Button from 'react-bootstrap/Button';
 
 
 export function Login () {
@@ -57,6 +59,7 @@ export function Login () {
     return (
         <div className={styles.containerPrincipal}>
           <div className={styles.containerSecundario}>
+          <img src={logo}/>
                 <h3>BIENVENIDX, POR FAVOR INGRESA TU USUARIO</h3>
               <div className={styles.formGroup}>
                   <label>Correo: </label>
@@ -77,7 +80,7 @@ export function Login () {
                       onChange={handleChange}
                   />
                   <br />
-                  <button className={styles.btnPrimary} onClick={()=> iniciarSesion()}> Iniciar Sesión</button>
+                  <Button variant="success" className={styles.btnPrimary} onClick={()=> iniciarSesion()}> Iniciar Sesión</Button>
               </div>
           {state.error === true && 
               <div className="alert alert-danger" role="alert">
