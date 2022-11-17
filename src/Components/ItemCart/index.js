@@ -6,7 +6,23 @@ function ItemCart({item}) {
 
   const {id} = item;
 
-  return <div>{item.name}</div>
+  return <div>
+      <img src={item.img} alt={item.name}/>
+      <div>
+        <p>{item.name}</p>
+        <p>HOLA</p>
+        <div>
+          <button onClick={()=> addItemToCart(item)}>AGREGAR</button>
+          <button onClick={() => deleteItemToCart(id)}>SACAR</button>
+        </div>
+      </div>
+      <div>
+        <div>
+          {item.amount}
+          <p>Total: ${item.amount * item.price}</p>
+        </div>
+      </div>
+      </div>
   
 }
 
